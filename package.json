@@ -3,6 +3,20 @@
   "version": "0.1.0",
   "main": "public/electron.js",
   "license": "MIT",
+  "description": "Aplicativo para dimensionamento de eixos de transmissão",
+  "author": "Joselito Lima",
+  "build": {
+    "appId": "com.eixo.app",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "public"
+    },
+    "productName": "Eixo"
+  },
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
